@@ -1,0 +1,13 @@
+
+-
+  id: 1
+  email: "admin@admin.com"
+  password: "202cb962ac59075b964b07152d234b70"
+  nom: "admin"
+  prenom: "admin"
+  username: "admin.admin"
+  role: 2
+  active: 1
+  birthday:
+  sexe: 1
+  description:

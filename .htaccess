@@ -1,0 +1,7 @@
+    
+DirectoryIndex app.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) app.php/$1 [L] 

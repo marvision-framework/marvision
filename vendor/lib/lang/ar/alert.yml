@@ -1,0 +1,3 @@
+danger:
+    remp_all: Veuillez remplir tous les champs obligatoires avant d'envoyer le formulaire.
+    remp_false: Verifier que les coordonnées saisie correcte...

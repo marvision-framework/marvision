@@ -1,0 +1,83 @@
+login 		: Connecter
+email 		: E-mail
+nom 		: Nom
+prenom		: Prénom
+password	: Mot de passe
+home		: Accueil
+ch_yt		: Chaîne Youtube
+not_conf	: ne pas Confirmer...   
+compte		: Compte  
+not_succ	: Cette action ne peut pas être réalisée ...  
+is_succ		: Cette opération a été réalisée avec succès ...
+signup		: Inscription
+confir		: Confirmation 
+men			: Male
+women		: Female
+add			: Ajouter
+delete		: Supprimer
+Publish		: Publier
+edit		: Modifier
+send		: envoyer
+slike_this	: aiment ça
+like_this	: aime ça
+ilike		: j'aime
+moreperson	: autres personnes 
+dislike		: Je n’aime plus
+comment		: Commenter
+reply		: Répondre
+b1comm		: faire la 1'er commenter
+you 		: Vous
+hometown	: Ville d'origine
+habite 		: Habite 
+in			: en
+in_			: à
+and			: et
+new			: Nouveau
+lycee		: Lycée
+bac			: baccalauréat
+literary	: littéraire
+info		: informatique
+eco			: économique
+tech		: technique
+science		: scientifiques
+autre		: autre
+university	: université
+diplome		: Diplôme
+company		: Société
+emploi		: Emploi
+website		: Site Web
+facebook	: facebook
+twitter		: twitter
+google		: google
+googleplus	: google +
+youtube		: youtube 
+github		: github 
+vimeo		: vimeo 
+linkedin	: linkedin 
+instagram	: instagram 
+flickr		: flickr 
+skype		: skype 
+tumblr		: tumblr 
+info_pers	: Information personnelle
+Naissance	: Naissance
+ans			: ans
+etud_a		: étudier à 
+travail		: travail 
+description : Description 
+justMe		: Moi uniquement 
+prive		: privé 
+public		: Public 
+users		: les utililisateurs 
+listusers	: list des utililisateurs
+adduser 	: ajouter un nouveau utililisateur
+dashboard	: dashboard
+online		: connecter
+offline		: deconnecter
+active		: active
+bloque		: bloque
+user		: utilisateur
+admin		: administrateur
+username	: username
+find	    : rechercher
+selectimg	: selection d'image
+save		: enregistrer

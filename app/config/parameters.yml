@@ -1,0 +1,25 @@
+parameters_local:
+    db_driver: pdo_mysql
+    db_host: 127.0.0.1
+    db_port: null
+    db_name: framwork_db
+    db_user: root
+    db_password: null
+    mail_transport: smtp
+    mail_host: 127.0.0.1
+    mail_user: null
+    mail_password: null
+    locale: ar 
+
+parameters_host:
+    db_driver: pdo_mysql
+    db_host: ...
+    db_port: null
+    db_name: ... 
+    db_user: ... 
+    db_password: ...
+    mail_transport: smtp
+    mail_host: ...
+    mail_user: null
+    mail_password: null
+    locale: ar 
