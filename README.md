@@ -14,7 +14,7 @@ to high traffic websites .
 ##### Installation 
 
 ```git
-https://github.com/marvision-framework/beta marvision
+https://github.com/marvision-framework/marvision.git
 ```
 then go to : app/config/parameters.yml
 and add your web site setting for localhost if working in localhost or the parameters of your official host like :
