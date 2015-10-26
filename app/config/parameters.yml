@@ -2,7 +2,7 @@ parameters_local:
     db_driver: pdo_mysql
     db_host: 127.0.0.1
     db_port: null
-    db_name: framwork_db #defulat
+    db_name: framwork_db #defulat data base
     db_user: root
     db_password: null
     mail_transport: smtp
