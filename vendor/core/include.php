@@ -1,5 +1,6 @@
 
 <?php  
+	require_once VENDOR.'/autoload.php';
 	require_once 'MarvisionFramework.php';  
 	require_once 'Session.php';  
 	require_once 'Router.php';  

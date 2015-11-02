@@ -7,9 +7,12 @@
 		private $vars = array(); //var à passeer àla vue
 		public $layout = 'default';//layout etulise
 		private $rendered = false;//si le rendu a ete fait ou nn ?
+		protected $twig;
 
 		function __construct($request = null){
-
+			$this->twig = new Twig_Environment(
+					new Twig_Loader_Filesystem('web/view')
+				);
 			$this->Session = new Session();
 			if($request){
 					$this->request = $request; //stock la req dans l'instance
@@ -27,13 +30,23 @@
 				$view = WEB.'/view'.DS.$this->request->controller.DS.$view.'.php';
 			}
 			ob_start();
-			require($view);
-			$content_for_layout = ob_get_clean();
+			//require($view); 
+			//$content_for_layout = ob_get_clean();
 			unset($_SESSION['Errors']);
-			require WEB.'/view/layout'.DS.$this->layout.'.php';
-			$this->rendered = true;
+			//$layout = WEB.'/view/layout'.DS.$this->layout.'.html';
+			//echo $this->view() '{% extends "'.$layout.'" %}';
+			$this->rendered = true; 
 		}
 		
+		public function view(array $data=[]){ 
+			$layout = '/layout/'.$this->layout.'.html';
+			$data['pg_title'] = (!empty($data['pg_title']))? $data['pg_title'] : SiteName ;
+			$data['pg_layout'] = $layout ;
+			$this->set($data);
+			$page = 'pages/'.$this->request->action.'.html';
+			echo $this->twig->render($page,$data);
+		}
+
 		public function set($key,$value=null){
 			if(is_array($key)){
 				$this->vars += $key;
@@ -41,6 +54,7 @@
 				$this->vars[$key] = $value;
 			}
 		}
+
 
 		//charger la model
 		function loadModel($name){

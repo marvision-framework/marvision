@@ -3,19 +3,20 @@
 	class PagesController extends Controller
 	{
 		function test(){ 
-			$this->layout = 'default';
-			$d['thisongl'] = 'test';
-			
-			//die(debug($result_yml));
-			$this->set($d);
+			$this->layout = 'home';
+			$d['pg_title'] = 'Marwen Hlaoui';
+			$d['name'] = 'Marwen Hlaoui';
+
+			$this->view($d);
+			//die(debug($result_yml));  
 		} 
 
 
 		function home(){
-			$this->layout = 'home';
+			//$this->layout = 'home';
 			$d['thisongl'] = 'home';   
 
-			$this->set($d);
+			$this->view($d);
 		}
  
 		 
