@@ -1,0 +1,29 @@
+{
+    "name": "marvision/framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marwen Hlaoui",
+            "email": "marwenhlaoui@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "description": "Marvision Framework.",
+    "keywords": ["framework", "marvision" , "php"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "doctrine/orm": "*",
+        "twig/twig": "~1.0",
+        "windwalker/renderer": "2.*",
+        "illuminate/view": "4.*",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
