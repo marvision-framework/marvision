@@ -7,7 +7,7 @@ use Windwalker\Renderer\BladeRenderer;
 
 Class View
 {
-	public $viewsType = ['blade','twig'];
+	public $viewsType = ['twig'];
 
 	public function run($view,$data){ 
 		if (in_array($_ENV['APP_VIEWS'], $this->viewsType)) {

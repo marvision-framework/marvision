@@ -50,21 +50,13 @@ if(!function_exists('findDir')){
 } 
 
 
-/**
-* Route
-*/
-if(!function_exists('route')){
-	function route($val){ 
-		dd($val);
-	}
-} 
 
 
 /**
 * include all files in this path with cond
 */
-if(!function_exists('make')){
-	function make($data=array()){
+if(!function_exists('make_')){
+	function make_($data=array()){
 		foreach ($data as $key => $item) {
 			/*
 			*	make models 
@@ -79,6 +71,8 @@ if(!function_exists('make')){
 		}
 	}
 } 
+
+ 
 
 /**
 * csrf_token
