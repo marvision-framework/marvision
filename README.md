@@ -16,7 +16,7 @@ Mbstring PHP Extension
 Tokenizer PHP Extension
 
 ```git
-$git clone https://github.com/marvision-framework/marvision application
+$git clone https://github.com/marvision-framework/old application
 ```
 			
 
